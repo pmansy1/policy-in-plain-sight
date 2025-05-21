@@ -1,54 +1,10 @@
-# Welcome to your Lovable project
-
 ## Project info
 
-**URL**: https://lovable.dev/projects/9942c78f-aab8-43e4-9679-b89b70e7261e
+PoliCode offers accessible local and regional information that is easy for citizens to read and understand. This information includes formulated, enacted, and/ or outcomes of laws and how they can potentially impact oneself. PoliCode offers translation and clarity about difficult, heavily academic-worded laws so citizens can understand what is happening, how it impacts them, and the next steps they can take. PoliCode offers an opportunity for those who were once restricted to stay informed. 
+PoliCode is targeted at low-income,  black, and Latino communities. PoliCode strives to make awareness about laws accessible to those who may not have had a college degree or school experience. PoliCode is targeted at those whom the laws may most impact, but may have little awareness about. 
+PoliCode is unique as it offers translation of laws, making it understandable and digestible to all citizens, no matter what level of education. PoliCode is designed to bring awareness about statutes that are most impactful depending on your state, city/town, district, zipcode, etc. PoliCode is an easy-to-use and unbiased platform providing accurate information. 
+The goal of the website is to provide information about laws that are being enacted, formulated, implemented, evaluated, and how that impacts you on a level that is most digestible and understandable. PoliCode website showcases the most recent news, allows users to search specific types of policy, such as housing, education, policy, etc, and a specific location by entering zip code or address to see what policy is directly impacting you. This website allows community comments on specific articles and motivates citizens to stay informed about decisions made by elected officials in their local neighborhoods. 
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/9942c78f-aab8-43e4-9679-b89b70e7261e) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
 ## What technologies are used for this project?
 
@@ -59,15 +15,3 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9942c78f-aab8-43e4-9679-b89b70e7261e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
