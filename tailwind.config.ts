@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// PoliCode brand colors
+				"policode": {
+					blue: "#1a4b84",
+					red: "#d32f2f",
+					green: "#2e7d32",
+					dark: "#333333",
+					light: "#f5f5f5",
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
