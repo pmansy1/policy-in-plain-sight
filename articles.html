@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PoliCode - Policy in your language, power in your hands</title>
+    <title>Articles - PoliCode</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   </head>
@@ -18,7 +18,7 @@
           <nav class="navbar-nav desktop-nav">
             <a href="index.html" class="nav-link">Home</a>
             <a href="about.html" class="nav-link">About Us</a>
-            <a href="articles.html" class="nav-link">Articles</a>
+            <a href="articles.html" class="nav-link active">Articles</a>
             <a href="events.html" class="nav-link">Events</a>
             <a href="survey.html" class="nav-link">Survey</a>
             <a href="get-involved.html" class="nav-link">Get Involved</a>
@@ -37,7 +37,7 @@
         <nav class="mobile-nav">
           <a href="index.html" class="nav-link">Home</a>
           <a href="about.html" class="nav-link">About Us</a>
-          <a href="articles.html" class="nav-link">Articles</a>
+          <a href="articles.html" class="nav-link active">Articles</a>
           <a href="events.html" class="nav-link">Events</a>
           <a href="survey.html" class="nav-link">Survey</a>
           <a href="get-involved.html" class="nav-link">Get Involved</a>
@@ -50,78 +50,48 @@
     </header>
 
     <main>
-      <!-- Hero Section -->
-      <section class="hero">
+      <section class="page-header">
         <div class="container">
-          <div class="hero-content">
-            <h1>Policy in your language, power in your hands</h1>
-            <p>
-              PoliCode makes complex policies understandable and accessible to all communities, 
-              regardless of education level or background.
-            </p>
-            <div class="search-container">
-              <div class="search-box">
-                <input type="text" placeholder="Search for policies..." />
-                <select>
-                  <option value="">All Categories</option>
-                  <option value="housing">Housing</option>
-                  <option value="education">Education</option>
-                  <option value="healthcare">Healthcare</option>
-                  <option value="immigration">Immigration</option>
-                  <option value="employment">Employment</option>
-                </select>
-                <button class="btn btn-primary">Search</button>
-              </div>
-              <div class="location-box">
-                <input type="text" placeholder="Enter your ZIP code" />
-                <button class="btn btn-secondary">Find Local Policies</button>
-              </div>
+          <h1>Policy Articles</h1>
+          <p>Understanding legislation that affects your community</p>
+        </div>
+      </section>
+
+      <section class="articles-filter">
+        <div class="container">
+          <div class="filter-container">
+            <div class="search-box">
+              <input type="text" placeholder="Search articles..." class="filter-search" />
+              <button class="btn btn-primary">Search</button>
+            </div>
+            <div class="filter-options">
+              <select name="category" id="category-filter">
+                <option value="">All Categories</option>
+                <option value="housing">Housing</option>
+                <option value="education">Education</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="immigration">Immigration</option>
+                <option value="employment">Employment</option>
+              </select>
+              <select name="location" id="location-filter">
+                <option value="">All Locations</option>
+                <option value="local">Local</option>
+                <option value="state">State</option>
+                <option value="federal">Federal</option>
+              </select>
+              <select name="sort" id="sort-filter">
+                <option value="newest">Newest First</option>
+                <option value="oldest">Oldest First</option>
+                <option value="popular">Most Popular</option>
+              </select>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Features Section -->
-      <section class="features">
+      <section class="articles-grid-section">
         <div class="container">
-          <h2 class="section-title">How PoliCode Works</h2>
-          <div class="features-grid">
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="fas fa-search"></i>
-              </div>
-              <h3>Find Relevant Policies</h3>
-              <p>Search by topic or location to find policies that affect your community.</p>
-            </div>
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="fas fa-language"></i>
-              </div>
-              <h3>Understand Complex Language</h3>
-              <p>Get clear explanations of legal jargon in language that makes sense.</p>
-            </div>
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="fas fa-users"></i>
-              </div>
-              <h3>Connect with Community</h3>
-              <p>Join discussions and share perspectives on policies that matter.</p>
-            </div>
-            <div class="feature-card">
-              <div class="feature-icon">
-                <i class="fas fa-bullhorn"></i>
-              </div>
-              <h3>Take Action</h3>
-              <p>Learn about ways to get involved and make your voice heard.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Featured Articles Section -->
-      <section class="featured-articles">
-        <div class="container">
-          <h2 class="section-title">Featured Articles</h2>
+          <h2 class="section-title">Latest Articles</h2>
           <div class="articles-grid">
             <div class="article-card">
               <div class="article-image" style="background-image: url('https://placehold.co/600x400')"></div>
@@ -131,7 +101,7 @@
                 </div>
                 <h3>New Rental Protection Laws: What You Need to Know</h3>
                 <p>Recent changes to rental laws provide new protections for tenants facing eviction.</p>
-                <a href="articles.html" class="btn-text">Read More →</a>
+                <a href="#" class="btn-text">Read More →</a>
               </div>
             </div>
             <div class="article-card">
@@ -142,7 +112,7 @@
                 </div>
                 <h3>School Funding Changes Impact Local Districts</h3>
                 <p>How the latest education budget affects schools in underserved communities.</p>
-                <a href="articles.html" class="btn-text">Read More →</a>
+                <a href="#" class="btn-text">Read More →</a>
               </div>
             </div>
             <div class="article-card">
@@ -153,23 +123,58 @@
                 </div>
                 <h3>New Healthcare Initiative Expands Coverage Options</h3>
                 <p>Learn about expanded healthcare options now available in your state.</p>
-                <a href="articles.html" class="btn-text">Read More →</a>
+                <a href="#" class="btn-text">Read More →</a>
+              </div>
+            </div>
+            <div class="article-card">
+              <div class="article-image" style="background-image: url('https://placehold.co/600x400')"></div>
+              <div class="article-content">
+                <div class="article-tags">
+                  <span class="tag tag-employment">Employment</span>
+                </div>
+                <h3>Minimum Wage Increase: Timeline and Impact</h3>
+                <p>What workers need to know about the upcoming minimum wage changes.</p>
+                <a href="#" class="btn-text">Read More →</a>
+              </div>
+            </div>
+            <div class="article-card">
+              <div class="article-image" style="background-image: url('https://placehold.co/600x400')"></div>
+              <div class="article-content">
+                <div class="article-tags">
+                  <span class="tag tag-immigration">Immigration</span>
+                </div>
+                <h3>Update on Immigration Policy Changes</h3>
+                <p>Recent developments in immigration policies and their effect on communities.</p>
+                <a href="#" class="btn-text">Read More →</a>
+              </div>
+            </div>
+            <div class="article-card">
+              <div class="article-image" style="background-image: url('https://placehold.co/600x400')"></div>
+              <div class="article-content">
+                <div class="article-tags">
+                  <span class="tag tag-housing">Housing</span>
+                </div>
+                <h3>Affordable Housing Initiative Launches</h3>
+                <p>New programs aim to increase available affordable housing options.</p>
+                <a href="#" class="btn-text">Read More →</a>
               </div>
             </div>
           </div>
-          <div class="view-all">
-            <a href="articles.html" class="btn btn-outline">View All Articles</a>
+          <div class="pagination">
+            <button class="pagination-item active">1</button>
+            <button class="pagination-item">2</button>
+            <button class="pagination-item">3</button>
+            <button class="pagination-item">Next</button>
           </div>
         </div>
       </section>
 
-      <!-- Newsletter Signup -->
       <section class="newsletter">
         <div class="container">
           <div class="newsletter-content">
             <div class="newsletter-text">
-              <h2>Stay Informed</h2>
-              <p>Get updates on new policies that affect your community directly to your inbox.</p>
+              <h2>Get Policy Updates</h2>
+              <p>Subscribe to receive the latest policy articles directly to your inbox.</p>
             </div>
             <form class="newsletter-form">
               <input type="email" placeholder="Your email address" required />
